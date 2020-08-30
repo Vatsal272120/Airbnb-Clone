@@ -14,7 +14,7 @@ const Banner = () => {
           className="banner__searchButton"
           variant="outlined"
         >
-          Search Dates
+          {showSearch ? "Hide" : "Search Dates"}
         </Button>
       </div>
       <div className="banner__info">
